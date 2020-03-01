@@ -1,0 +1,2 @@
+# goodboy
+interested in ai
