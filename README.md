@@ -10,7 +10,7 @@ python == 3.6
 
 # Environment
 1. Pybullet  
-* Assuming that you use google colab, following codes will provide you the enjoyable mujoco environment.  
+* Assuming you are using google colab, following codes will provide the enjoyable mujoco environment.  
 !pip install pybullet  
 !git clone https://github.com/benelot/pybullet-gym.git  
 cd pybullet-gym  
