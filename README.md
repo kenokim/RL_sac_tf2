@@ -3,9 +3,9 @@
 Soft actor critic : Haarnoja et. al. (201812)
 
 # Requirements
-tensorflow == 2.1  
+tensorflow >= 2.1  
 pybullet == 2.6 (alternatively, you can use openai gym mujoco)  
-python == 3.6  
+python >= 3.6  
 
 
 # Environment
@@ -20,14 +20,14 @@ import pybulletgym
 env = gym.make('HopperPyBulletEnv-v0')  
 
 2. Openai gym Mujoco  
-Recommend to use Linux or MacOs as your development environment. Otherwise, you'll encounter a lot of bugs! ( I did :worried: )  
+Recommended to use Linux or MacOs as your development environment. Otherwise, you'll encounter a lot of bugs! ( I did :worried: )  
 * Go to the official Mujoco homepage, download an appropriate license. Then, follow steps represented on the page.
 This enables having an experiment on your local pc! :satisfied:
 
 
 # Algorithm explanations
 I'll explain what I understood studying sac.   
-* Soft actor critic is a model-free, off-policy algorithm. (Probably one of the simplest algorithms.)  
+* Soft actor critic is a model-free, off-policy algorithm. (Probably one of the simplest rl algorithms.)  
 * It basically operates by iterating the following steps:
 1. Update Q value function (the critic) : how much reward is expected as taking an action from a state.  
 2. Update the policy (the actor) by matching the Kullback-Leibler divergence.   
@@ -36,7 +36,7 @@ Though it is astonishingly simple, it works great.
 
 
 # Debugging  
-To debug in a machine learning project is ambiguous, compared to other topics. It's tricky because it doesn't print out a "yes or no" result. I hope that a novel tool would come up, and automize those horrific debugging steps !  
+Debugging in a machine learning project is ambiguous, compared to other topics. It's tricky because it doesn't print out a "yes or no" result. I hope that a novel tool will come up, and automize those horrific debugging steps.  
 
 # Reference  
 I took and changed some part of Stanford's open course assignment codes. That is "creating sampling" part. 
@@ -45,3 +45,4 @@ First writing : 20.01.xx
 Last modification : 20.05.xx  
 
 
+I'll update this on my summer vacation! Hope someone watch this ...
