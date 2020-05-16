@@ -36,6 +36,9 @@ Though it is astonishingly simple, it works great.
 
 
 # Debugging  
-To debug in a machine learning project is ambiguous, compared to other topics. It's tricky because it doesn't print out a "yes or no" result. I hope that a novel tool would come up, and automize those horrific debugging steps ! :laugh:
+To debug in a machine learning project is ambiguous, compared to other topics. It's tricky because it doesn't print out a "yes or no" result. I hope that a novel tool would come up, and automize those horrific debugging steps !  
+
+First writing : 20.01.xx  
+Last modification : 20.05.xx  
 
 
