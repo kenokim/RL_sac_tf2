@@ -1,4 +1,4 @@
-# Soft actor critic tensorflow 2.x implementation and explanation -kr
+# Soft actor critic tensorflow 2.x implementation and explanation
 
 Soft actor critic : Haarnoja et. al. (201812)
 
@@ -21,7 +21,7 @@ env = gym.make('HopperPyBulletEnv-v0')
 
 2. Openai gym Mujoco  
 Recommend to use Linux or MacOs as your development environment. Otherwise, you'll encounter a lot of bugs! ( I did :worried: )  
-* Go to the official Mujoco homepage, download an appropriate license. Then, follow the steps represented on the page.
+* Go to the official Mujoco homepage, download an appropriate license. Then, follow steps represented on the page.
 This enables having an experiment on your local pc! :satisfied:
 
 
@@ -35,6 +35,7 @@ Though it is astonishingly simple, it works great.
 
 
 
-# Keep updating.. it's not complete yet..
+# Debugging  
+To debug in a machine learning project is ambiguous, compared to other topics. It's tricky because it doesn't print out a "yes or no" result. I hope that a novel tool would come up, and automize those horrific debugging steps ! :laugh:
 
 
