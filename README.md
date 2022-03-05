@@ -10,7 +10,7 @@ python >= 3.6
 
 # Environment
 1. Pybullet  
-* Assuming you are using google colab, following codes will provide the enjoyable mujoco environment.  
+* Assuming you are using google colab, following codes will provide mujoco-like environment.  
 !pip install pybullet  
 !git clone https://github.com/benelot/pybullet-gym.git  
 cd pybullet-gym  
@@ -28,10 +28,10 @@ This enables having an experiment on your local pc! :satisfied:
 # Algorithm explanations
 I'll explain what I understood studying sac.   
 * Soft actor critic is a model-free, off-policy algorithm. (Probably one of the simplest rl algorithms.)  
-* It basically operates by iterating the following steps:
+* It operates by iterating the following steps:
 1. Update Q value function (the critic) : how much reward is expected as taking an action from a state.  
 2. Update the policy (the actor) by matching the Kullback-Leibler divergence.   
-Though it is astonishingly simple, it works great. 
+Though it is simple, it works great. 
 
 
 
